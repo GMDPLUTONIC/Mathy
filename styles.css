@@ -30,6 +30,13 @@ body
     margin: 1px auto;
 }
 
+.abt a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00e1ff;
+    margin: 1px auto;
+}
+
 .selection
     {
     width: 1050px;
