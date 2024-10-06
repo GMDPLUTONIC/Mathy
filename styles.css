@@ -167,3 +167,51 @@ body
     color: #ffffff;
     margin: 1px auto;
 }
+
+.main-levels button
+{
+    border-radius: 100px;
+    background: radial-gradient(rgb(64, 64, 64), rgb(27, 27, 27));
+    color: #f2f2f2;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 50px 210px;
+    width: 500px;
+    height: 100px;
+    transition: all .5s;
+}
+
+.main-levels button:hover
+{
+    box-shadow: #000000 0 5.50px 75.5px;
+}
+
+.contacts
+    {
+    width: 1050px;
+    height: 125px;
+    background:#202424;
+    color: #3a3d4c;
+    margin:500px 0px ;
+    }
+
+.contacts h1
+{
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 1px auto;
+}
+
+.contacts p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cfcfcf;
+    margin: 1px auto;
+}
+
+.contacts a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00e1ff;
+    margin: 1px auto;
+}
