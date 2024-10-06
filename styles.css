@@ -52,14 +52,14 @@ body
 {
     font-family: sans-serif;
     color: #ffffff;
-    margin: 1px auto;
+    margin: 0px auto;
 }
 
 .selection p
 {
     font-family: Arial, Helvetica, sans-serif;
     color: #cfcfcf;
-    margin: 1px auto;
+    margin: 0px auto;
 }
 
 .selection button
@@ -68,21 +68,21 @@ body
     height: 100px;
     background:#000000;
     color: #ffffff;
-    margin: 0px auto;
+    margin: auto 0px;
     }
 
 .selection button h1
 {
     font-family: sans-serif;
     color: #ffffff;
-    margin: 1px auto;
+    margin: 0px auto;
 }
 
 .selection button p
 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    margin: 1px auto;
+    margin: 0px auto;
 }
 
 
@@ -111,14 +111,23 @@ body
     margin: 1px auto;
 }
 
-.excercises selection button
-    {
-    width: 1050px;
-    height: 100px;
-    background:#000000;
-    color: #ffffff;
-    margin: 0px auto;
-    }
+.excercises input
+{
+    border-radius: 100px;
+    background: radial-gradient(rgb(64, 64, 64), rgb(27, 27, 27));
+    color: #f2f2f2;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px 25px;
+    width: 100px;
+    height: 50px;
+    transition: all .5s;
+}
+
+.excercises input:hover
+{
+    box-shadow: #000000 0 5.50px 75.5px;
+}
 
     .selection
     {
@@ -175,7 +184,7 @@ body
     color: #f2f2f2;
     font-size: 20px;
     cursor: pointer;
-    margin: 50px 210px;
+    margin: 50px 215px;
     width: 500px;
     height: 100px;
     transition: all .5s;
